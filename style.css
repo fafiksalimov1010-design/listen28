@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: orange;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -10,6 +12,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 20px;
 }
 
 
@@ -31,19 +34,21 @@ header {
 }
 
 
-.Pricing {
+.pricing {
+  margin: 0;
+  margin-top: 250px;
   font-size: 70px;
   color: white;
 }
 
 
-.Get {
+.get {
   font-size: medium;
   color: white;
 }
 
 
-.Try {
+.try {
   border: none;
   padding: 12px 35px;
   cursor: pointer;
@@ -51,4 +56,3 @@ header {
   color: black;
   font-weight: bold;
 }
-
